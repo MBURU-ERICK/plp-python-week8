@@ -1,0 +1,81 @@
+PROJECT TITLE: SpendWise Personal Toolkit
+
+PROJECT OBJECTIVE
+Build a menu-driven Python application that helps users
+manage expenses, perform calculations, organize tasks
+and plan their personal budgets.
+
+SELECTED TOOLS
+
+1. Expense Tracker
+   Allows users to record expenses, view their spending
+   history and calculate total expenditure.
+
+2. Calculator
+   Performs addition, subtraction, multiplication
+   and division.
+
+3. To-Do List
+   Allows users to add, view and remove personal tasks.
+
+4. Budget Planner
+   Calculates remaining funds and determines whether
+   the user is within their budget.
+
+MAIN MENU
+
+========================================
+       SPENDWISE PERSONAL TOOLKIT
+========================================
+1. Expense Tracker
+2. Calculator
+3. To-Do List
+4. Budget Planner
+5. Quit
+========================================
+Enter your choice:
+
+PROGRAMMING CONCEPTS
+
+Expense Tracker:
+- Variables
+- Lists
+- While loops
+- For loops
+- Conditionals
+- Input and output
+- F-strings
+- Exception handling
+
+Calculator:
+- Variables
+- Arithmetic operators
+- Conditionals
+- Input and output
+- F-strings
+- Exception handling
+
+To-Do List:
+- Lists
+- Append and pop methods
+- While loops
+- For loops
+- Conditionals
+- F-strings
+
+Budget Planner:
+- Variables
+- Arithmetic operators
+- Conditionals
+- Lists
+- F-strings
+- Exception handling
+
+ERROR HANDLING
+The program will validate menu choices, reject invalid
+numbers, prevent division by zero and handle empty lists.
+
+PROGRAM FLOW
+Start the program, display the main menu, run the
+selected tool and return to the main menu until the
+user chooses Quit.
