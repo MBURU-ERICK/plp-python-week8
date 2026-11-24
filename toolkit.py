@@ -228,12 +228,15 @@ def budget_planner():
 
 
 # MAIN MENU: Keep the program running until the user quits.
+# MAIN MENU: Run the toolkit until the user chooses Quit.
 def main():
     print("\nWelcome to SpendWise Personal Toolkit!")
     print("Manage your money, calculations and daily tasks.")
 
     while True:
-        heading("SPENDWISE PERSONAL TOOLKIT")
+        print("\n" + "=" * 44)
+        print("SPENDWISE PERSONAL TOOLKIT".center(44))
+        print("=" * 44)
 
         print("1. Expense Tracker")
         print("2. Calculator")
@@ -263,6 +266,14 @@ def main():
 
         else:
             print("Invalid choice. Please select a number from 1 to 5.")
+
+
+# Start the application.
+if __name__ == "__main__":
+    try:
+        main()
+    except (KeyboardInterrupt, EOFError):
+        print("\nSpendWise closed. Goodbye!")
 
 
 # Start the program.

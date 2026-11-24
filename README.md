@@ -51,6 +51,11 @@ Expenses and tasks are stored in memory during the current session. They are cle
 ## Reflection
 
 This project helped me understand how different Python programming concepts work together in a practical application. The most challenging part was designing a menu system that connects multiple tools while keeping the code organized. Handling unexpected user input required careful attention to prevent the application from crashing. The issue that required the most debugging was [describe the actual bug you encountered during testing]. I also learned how lists can store and manage information dynamically while a program is running. With one more week, I would add permanent file storage, expense categories and more detailed financial reports.
+## Improvements After Assessment
+
+Following the feedback received during my first assessment, I completed the main menu implementation to ensure the application continues running until the user selects Quit. I also improved the validation of invalid menu selections and added screenshots demonstrating each tool in action.
+
+These improvements demonstrate the importance of testing, documentation and verifying that all project requirements are included before submission. The updated project provides clearer evidence of its functionality and compliance with the assignment requirements.
 
 ## Author
 
